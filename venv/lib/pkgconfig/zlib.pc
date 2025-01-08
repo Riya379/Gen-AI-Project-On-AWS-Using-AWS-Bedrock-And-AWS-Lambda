@@ -1,0 +1,13 @@
+prefix=/Users/riyamahajan/Documents/aws/venv
+exec_prefix=/Users/riyamahajan/Documents/aws/venv
+libdir=/Users/riyamahajan/Documents/aws/venv/lib
+sharedlibdir=/Users/riyamahajan/Documents/aws/venv/lib
+includedir=/Users/riyamahajan/Documents/aws/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
